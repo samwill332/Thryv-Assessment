@@ -1,0 +1,100 @@
+body{
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.thryvNight{
+    color: #4D4D4D;
+}
+.thryvSteel{
+    color: #808080;
+}.thryvOrange{
+    color: #FF5000;
+}
+
+/*Header content - thryv logo and button*/
+.headerContainer{
+    padding: 3%;
+}
+
+.headerBtn{
+    float: right;
+    background-color: #FF5000;
+    color: #FFFFFF;
+    border-radius: 25px;
+    width: 218px;
+    height: 45px;
+    font-size: 15px;
+    border: 0;
+    box-shadow: none;
+}
+.p1{
+    font-weight: 400;
+}
+.downloadGuideBtn{
+    background-color: #FF5000;
+    color: #FFFFFF;
+    border-radius: 25px;
+    width: 218px;
+    height: 45px;
+    font-size: 15px;
+    border: 0;
+    box-shadow: none;
+}
+@media (min-width: 450px) {   
+    .padding-left-only {
+        padding: 0 0px 0 15% !important;
+    }
+}
+
+/*2nd row*/
+.rectangleContainer{
+    align-items: inline-block;
+    display: flex;
+    justify-content: center;
+}
+.rectangle{
+    height: 540px;
+    width: 475px;
+    background-color: #F4F6FB;
+    border-radius: 12px;
+}
+.card{
+    margin: 100px;
+}
+
+/*4th row*/
+.footerBackground{
+    background-image: url('/Assignment_Assets/Desktop/Footer Background/rectangle-copy-6.png');
+    color: #FFFFFF;
+    padding: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footerFontSize{
+    font-size: 45px;
+}
+.footerBtn{
+    background-color: #3D5199;
+    color: #FFFFFF;
+    border-radius: 25px;
+    width: 200px;
+    height: 45px;
+    font-size: 15px;
+    border: 0;
+    box-shadow: none;
+}
+
+/*5th row - copyright*/
+.copyright{
+    color: #808080;
+    font-size: 12px;
+    padding: 1%;
+}
+small{
+    padding-left: 15%;
+}
+
+/*Modal*/
+.somethingWeSaidModalBody {
+    margin: 15%;
+}
